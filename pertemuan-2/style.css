@@ -1,0 +1,179 @@
+.h2-style {
+  color: red;
+  font-size: 36px;
+  border: solid green 1px;
+}
+
+.blue-color {
+  color: blue;
+}
+
+.h2-style.blue-color {
+  border: solid purple 2px;
+}
+
+#my-h2 {
+  color: pink;
+}
+
+/* p {
+  color: blue;
+} */
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border: solid black 5px;
+  /* padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 30px;
+  padding-bottom: 40px; */
+  padding: 10px 20px 30px 40px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.another-circle {
+  border: solid black 1px;
+}
+/* px, %, vh, vw, em, rem */
+.my-p {
+  font-size: 16px;
+  font-weight: 800;
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.parent {
+  width: 300px;
+  height: 100px;
+  border: solid red 1px;
+}
+
+.child {
+  width: 50%;
+  height: 50px;
+  font-size: 8px;
+  border: solid blue 1px;
+}
+
+.my-vw-vh {
+  width: 50vw;
+  height: 50px;
+  border: solid purple 1px;
+}
+
+.my-rem {
+  width: 2rem;
+  height: 1rem;
+
+  border: solid green 1px
+}
+
+.my-em {
+  width: 2em;
+  height: 1em;
+  background-color: burlywood;
+  border: solid green 1px
+}
+
+.my-link {
+  color: blue;
+  text-decoration: none;
+}
+
+.my-link:visited {
+  color: red;
+}
+
+.my-link:hover {
+  color: hotpink;
+}
+
+.my-link:active {
+  color: green;
+}
+
+.my-pseudo {
+  margin-top: 20px;
+
+  width: 150px;
+  height: 50px;
+
+  border: solid blue 1px;
+}
+
+.my-pseudo:hover {
+  background-color: aquamarine;
+}
+
+.my-button {
+  margin: 8px;
+
+  background-color: white;
+  border: solid blue 1px;
+  border-radius: 20px;
+}
+
+.my-button:hover {
+  background: rgb(147, 147, 208);
+  color: rgb(77, 69, 69)
+}
+
+.my-button:active {
+  border: solid red 3px;
+}
+
+.my-input:focus {
+  border: solid blue 1px;
+}
+
+.span-1 {
+  display: none;
+  width: 500px;
+}
+
+.div-1 {
+  width: 100px;
+}
+
+.div-3 {
+  display: inline-block;
+  width: 100px;
+}
+
+.my-pos {
+  width: 100px;
+  height: 100px;
+
+  margin: 10px;
+
+  border: solid blue 1px;
+}
+
+.my-absolute {
+  background: red;
+  position: absolute;
+
+  left: 50px;
+  top: 100px;
+}
+
+.my-relative {
+  background: blue;
+  position: relative;
+
+  left: 100px;
+  top: 50px;
+}
+
+.my-fixed {
+  background: yellowgreen;
+  position: sticky;
+
+  left: 200px;
+}
+
+.my-list {
+  list-style-type: lower-roman;
+}
