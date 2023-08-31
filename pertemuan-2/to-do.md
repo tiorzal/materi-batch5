@@ -19,3 +19,7 @@ ref: https://www.w3schools.com/css/css_pseudo_classes.asp
 
 Additional resource:
 https://flukeout.github.io/
+
+versi 1
+versi 2 revisi
+versi 3 revisi ya allah tolong

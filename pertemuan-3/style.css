@@ -1,0 +1,52 @@
+.parent {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  border: solid black 1px;
+  gap: 10px;
+}
+
+.box {
+  border: solid red 1px;
+  width: 50px;
+  font-size: 36px;
+}
+
+.box-2 {
+  flex-grow: 2;
+}
+
+.box-5 {
+  flex-grow: 3;
+}
+
+
+.main-wrapper {
+  width: 100%;
+  border: solid gray 1px;
+  min-height: 200px;
+
+  display: flex;
+}
+
+.left-section {
+  flex-grow: 1;
+  border: solid black 1px;
+
+  display: flex;
+}
+
+.right-section {
+  flex-grow: 1;
+  border: solid black 1px;
+}
+
+.picture {
+  border: solid black 1px;
+}
+
+.panel {
+  flex-grow: 1;
+  border: solid black 1px;
+}
