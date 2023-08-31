@@ -1,3 +1,4 @@
+
 .h2-style {
   color: red;
   font-size: 36px;
@@ -16,9 +17,10 @@
   color: pink;
 }
 
-/* p {
+p {
   color: blue;
-} */
+  margin: 40px;
+}
 
 .circle {
   width: 200px;
