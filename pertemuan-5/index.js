@@ -23,26 +23,38 @@ function toggleEditForm (event) {
 }
 
 function mySubmitForm(event) {
+  // prevent event bubbling JS
   event.preventDefault()
+  // get all values
   const currentName = formName.value
   const currentHeight = formHeight.value
   const currentFile = formImage.files[0]
 
+  // set name to target
   nameTarget.innerHTML = currentName
+  // set height to target
   heightTarget.innerHTML = currentHeight
 
+  // set file to target
+  // cek if file exist
   if(currentFile) {
+    // bikin instance file reader
     const reader = new FileReader()
 
+    // set function onload nya, pas filereader nya beres, itu mau ngapain
     reader.onload = function (e) {
       imageTarget.src = e.target.result
     }
 
+    // pass the file to file reader
     reader.readAsDataURL(currentFile);
+
+    // log debugging
     console.log(currentFile)
     console.log('file ada')
   }
-
+  
+  // hide form nya lagi
   toggleEditForm()
 }
 
@@ -60,3 +72,4 @@ function mySubmitForm(event) {
  */
 
 // ref : https://developer.mozilla.org/en-US/docs/Web/API/FileReader
+// ref : https://www.freecodecamp.org/news/event-bubbling-in-javascript/
