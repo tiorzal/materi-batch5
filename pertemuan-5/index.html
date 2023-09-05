@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <img id="imageTarget" src="./default.jpg" alt="" srcset="" class="image-size">
+  <h1>nama: <span id="nameTarget">-</span></h1>
+  <h1>tinggi: <span id="heightTarget">-</span></h1>
+  <button id="editButton">edit</button>
+  <form id="myForm" class="hide-content">
+    <label for="formName">nama</label>
+    <input id="formName" type="text" name="username">
+    <label for="formHeight">tinggi</label>
+    <input id="formHeight" type="number" min="0" name="userheight">
+    <label for="formImage">foto</label>
+    <input type="file" id="formImage" name="userpicture" accept="image/png, image/jpeg" >
+    <button id="submitButton">simpan</button>
+  </form>
+  <script src="index.js"></script>
+</body>
+</html>
