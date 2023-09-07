@@ -1,0 +1,60 @@
+.card-img {
+  width: 100px;
+  margin-top: 20px;
+}
+
+.wrapper {
+  display: flex;
+  border: solid black 1px;
+
+  padding: 20px;
+  gap: 20px;
+}
+
+.card {
+  border: solid black 1px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.card:hover {
+  border: solid blue 2px;
+  transform: scale(1.1);
+  background-color: rgb(234, 242, 167);
+}
+
+.card > h1 {
+  color: red;
+  font-size: 16px;
+}
+
+/* status color */
+.color-green {
+  color: green;
+}
+
+.color-red {
+  color: red;
+}
+
+.status-label {
+  border: solid gray 1px;
+  padding: 2px 10px;
+  border-radius: 20px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.status-label.color-red {
+  background-color: rgb(238, 160, 160);
+}
+
+.status-label.color-green {
+  background-color: rgb(166, 232, 166);
+}
+
+.price {
+  display: block;
+}
