@@ -139,7 +139,7 @@
 // })
 
 // const mappedArray = myArray.map((value, index, theArray) => {
-  // console.log(value,index,theArray)
+//   console.log(value,index,theArray)
 //   return value + index
 // })
 
