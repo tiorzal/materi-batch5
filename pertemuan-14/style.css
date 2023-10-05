@@ -1,0 +1,36 @@
+.parent {
+  width: 200px;
+  height: 150px;
+  border: solid black 1px;
+}
+
+.child {
+  width: 50px;
+  height: 50px;
+  border: solid black 1px;
+}
+
+.first {
+  background-color: green;
+  z-index: 4;
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+
+.second {
+  background-color: yellow;
+  z-index: 3;
+  position: relative;
+  overflow: auto;
+}
+
+.grand-child {
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  border: solid black 1px;
+  position: relative;
+  left: 5px;
+  z-index: 10;
+}
